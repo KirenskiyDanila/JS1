@@ -1,6 +1,9 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <body class="bg">
+  <div class="bg">
+      <HelloWorld msg="Welcome to Your Vue.js App"/>
+  </div>
+  </body>
 </template>
 
 <script>
@@ -14,13 +17,18 @@ export default {
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style scoped lang="css">
+body, html {
+  height: 100%;
+}
+
+.bg {
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+
+  height: 70em;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 </style>
