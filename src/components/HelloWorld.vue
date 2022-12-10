@@ -67,6 +67,7 @@ export default {
     celsius: 0,
     fahrenheit: 0,
   }),
+  // Методы-формулы перевода из одной единицы измерения в другую
   methods: {
     feetToMeters() {
       this.meters = this.feet * 3.281;
